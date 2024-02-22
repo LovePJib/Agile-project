@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #707070;
+    color: #fff;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #6b6b6b;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 200px;
+}
+
+.topbar {
+    background-color: #f0f0f0;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-icon {
+    background-color: #333;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17.5%;
+}
+
+.search-box {
+    margin-left: auto;
+    padding: 5px;
+}
+
+.search-box input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.notification-icon {
+    margin-right: 20px;
+}
+
+.notification-icon img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.username {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.on-button {
+    background-color: #2bdc78;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.off-button {
+    background-color: #bf3434;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.on-button:hover {
+    background-color: #9ae4a0;
+}
+
+.off-button:hover {
+    background-color: #915f5f;
+}
+
+
+/* 
+.user {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+} */
